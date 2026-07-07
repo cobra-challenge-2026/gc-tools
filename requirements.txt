@@ -1,0 +1,8 @@
+SimpleITK>=2.3
+numpy>=1.24,<2.0
+scipy>=1.10
+PyYAML>=6.0
+xmltodict>=0.13
+tqdm>=4.65
+itk>=5.4
+itk-rtk>=2.6
