@@ -70,15 +70,6 @@ For every input case the script creates `<output-dir>/<CENTER>/<CASE>/` with:
 Existing output directories are reused (`makedirs(..., exist_ok=True)`); files are
 overwritten.
 
-## Logging and error handling
-
-- Progress is logged to stderr with per-case markers (`[CENTER i/N] Processing case ...`).
-  Level names are colorized when the output is an interactive terminal.
-- Each case is processed inside a `try/except`: any exception is logged with a full
-  traceback and the case is added to a failure list, then the run continues.
-- At the end, a summary lists every `CENTER/CASE` that failed, or reports that all
-  centers processed successfully.
-
 ## Standalone geometry conversion
 
 `utils/geometry.py` can also be run directly to convert a single geometry file in
