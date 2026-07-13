@@ -1,11 +1,33 @@
 import SimpleITK as sitk
 import os
+import argparse
 import utils.geometry as geo
 import utils.reconstruction as recon
 
-DATA_DIR = "/project_data_2/cbct/COBRA/data/GC"
-CASES = ["F003"]
-SIMULATED = False
+
+def parse_args():
+    parser = argparse.ArgumentParser(description="Reconstruct CBCT projections using FDK.")
+    parser.add_argument(
+        "--data-dir",
+        help="Root directory containing the GC case data.",
+    )
+    parser.add_argument(
+        "--cases",
+        nargs="+",
+        help="One or more case IDs to reconstruct.",
+    )
+    parser.add_argument(
+        "--simulated",
+        action="store_true",
+        help="Use simulated projections instead of real ones.",
+    )
+    return parser.parse_args()
+
+
+args = parse_args()
+DATA_DIR = args.data_dir
+CASES = args.cases
+SIMULATED = args.simulated
 
 for case in CASES:
     print(f"Reconstructing case: {case} ({'simulated' if SIMULATED else 'real'})")
@@ -56,6 +78,9 @@ for case in CASES:
         reconstructed = recon.fix_image_properties(reconstructed, order = (1,2,0), flip = (0,))
     #reconstructed = sitk.Multiply(reconstructed, sitk.Cast(fov, sitk.sitkFloat32))
     reconstructed = recon.rtk_to_HU(reconstructed) 
+    
+    #mask the reconstructed image with the FOV mask
+    reconstructed = sitk.Mask(reconstructed, sitk.Cast(fov, sitk.sitkUInt8), outsideValue=-1024)
     
     # Save output file
     output_path = os.path.join(case_dir, "recon_sim.mha") if SIMULATED else os.path.join(case_dir, "recon.mha")
