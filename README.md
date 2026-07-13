@@ -68,7 +68,7 @@ For every input case the script creates `<output-dir>/<CENTER>/<CASE>/` with:
 | `cbct_metadata.json` | `metadata.yaml` | Converted YAML → JSON. |
 | `cbct_fov.mha` | `fov_cbct_nocouch.mha` | Copied unchanged. |
 | `ct.mha` | `ct_def_masked.mha` | Copied unchanged. |
-| `cbct_rtk.mha` | `cbct_rtk.mha` | Copied unchanged. |
+| `cbct.mha` | `cbct_rtk.mha` | Copied unchanged. |
 
 ---
 
