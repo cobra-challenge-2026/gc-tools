@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["cbct"],
+  "properties": {
+    "cbct": {
+      "type": "object",
+      "required": [
+        "Collimator",
+        "Fan",
+        "ImagerResX",
+        "ImagerResY",
+        "ImagerSizeX",
+        "ImagerSizeY",
+        "KVFilter",
+        "Manufacturer",
+        "PulseLength",
+        "ReconstructionSizeX",
+        "ReconstructionSizeY",
+        "ReconstructionSizeZ",
+        "ReconstructionSpacingX",
+        "ReconstructionSpacingY",
+        "ReconstructionSpacingZ",
+        "ScatterGrid",
+        "Trajectory",
+        "TubeCurrent",
+        "TubeVoltage"
+      ],
+      "properties": {
+        "Collimator": { "type": ["string","null"] },
+        "Fan": { "type": ["string","null"] },
+        "ImagerResX": { "type": ["number","null"] },
+        "ImagerResY": { "type": ["number","null"] },
+        "ImagerSizeX": { "type": ["number","null"] },
+        "ImagerSizeY": { "type": ["number","null"] },
+        "KVFilter": { "type": ["string","null"] },
+        "Manufacturer": { "type": ["string","null"] },
+        "PulseLength": { "type": ["number","null"] },
+        "ReconstructionSizeX": { "type": ["number","null"] },
+        "ReconstructionSizeY": { "type": ["number","null"] },
+        "ReconstructionSizeZ": { "type": ["number","null"] },
+        "ReconstructionSpacingX": { "type": ["number","null"] },
+        "ReconstructionSpacingY": { "type": ["number","null"] },
+        "ReconstructionSpacingZ": { "type": ["number","null"] },
+        "ScatterGrid": { "type": ["string","null"] },
+        "Trajectory": { "type": ["string","null"] },
+        "TubeCurrent": { "type": ["number","null"] },
+        "TubeVoltage": { "type": ["number","null"] }
+      }
+    }
+  }
+}
