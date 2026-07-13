@@ -30,10 +30,10 @@ for case in CASES:
     geometry = geo.rtk_geometry_from_json(cbct_geometry_json_path)
     
     # for Varian images with very large flat panels, crop the projections to avoid reconstruction artifacts
-    # if vendor.lower() == "varian" and projections.GetSize()[0] * projections.GetSpacing()[0] > 850:
-    #     projections = projections[128:-128,:,:]
+    if vendor.lower() == "varian" and projections.GetSize()[0] * projections.GetSpacing()[0] > 850:
+        projections = projections[128:-128,:,:]
     
-    # infer image properties for reconstruction from FOV mask
+    # get image properties for reconstruction from FOV mask
     size, spacing, origin = recon.get_image_properties_for_recon(fov)
     
     # Run FDK reconstruction
