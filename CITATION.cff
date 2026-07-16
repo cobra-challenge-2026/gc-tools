@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it using the metadata below. GitHub repository: https://github.com/cobra-challenge-2026/gc-tools"
-title: "COBRA2026 Preprocessing Pipeline"
+title: "COBRA2026 Grand-Challenge Tools"
 type: software
 license: Apache-2.0
 repository-code: "https://github.com/cobra-challenge-2026/gc-tools"
@@ -22,7 +22,7 @@ keywords:
   - medical imaging
 preferred-citation:
   type: software
-  title: "COBRA2026 Preprocessing Pipeline"
+  title: "COBRA2026 Grand-Challenge Tools"
   authors:
     - family-names: "Thummerer"
       given-names: "Adrian"
