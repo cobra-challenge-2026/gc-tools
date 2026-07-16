@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below. GitHub repository: https://github.com/cobra-challenge-2026/gc-tools"
+title: "COBRA2026 Preprocessing Pipeline"
+type: software
+license: Apache-2.0
+repository-code: "https://github.com/cobra-challenge-2026/gc-tools"
+url: "https://github.com/cobra-challenge-2026/gc-tools"
+abstract: >-
+  Tools for the COBRA2026 challenge, including data conversion scripts and sample reconstruction tools for the COBRA2026 dataset.
+authors:
+  - family-names: "Thummerer"
+    given-names: "Adrian"
+  - family-names: "Zimmermann"
+    given-names: "Lukas"
+  - name: "COBRA2026 contributors"
+keywords:
+  - cone-beam computed tomography
+  - CBCT
+  - radiotherapy
+  - image reconstruction
+  - preprocessing
+  - medical imaging
+preferred-citation:
+  type: software
+  title: "COBRA2026 Preprocessing Pipeline"
+  authors:
+    - family-names: "Thummerer"
+      given-names: "Adrian"
+    - family-names: "Zimmermann"
+      given-names: "Lukas"
+    - name: "COBRA2026 contributors"
+  year: 2026
+  repository-code: "https://github.com/cobra-challenge-2026/gc-tools"
+  license: Apache-2.0
