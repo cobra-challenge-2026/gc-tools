@@ -1,5 +1,6 @@
 # COBRA2026 GC Tools
-[![DOI](https://zenodo.org/badge/1276331467.svg)](https://doi.org/10.5281/zenodo.21397869)
+
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.21397869-blue.svg)](https://doi.org/10.5281/zenodo.21397869)
 
 Tools for the **COBRA2026** challenge hosted on grand-challenge.org. This package converts the public
 COBRA2026 dataset and generates the input and ground-truth data used on the Grand Challenge (GC) platform.
