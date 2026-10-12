@@ -6,6 +6,10 @@ G001:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
     scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
+G002:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G003:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
@@ -38,6 +42,10 @@ G012:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
     scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
+G013:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV-Scattergrid-RTI4343iL/Current
+    scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
 G014:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -54,7 +62,23 @@ G017:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G018:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G019:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G020:
+  data:
+    airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
+    scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
 G022:
+  data:
+    airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G023:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
@@ -62,10 +86,18 @@ G025:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV-Scattergrid-RTI4343iL/Current
     scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
+G026:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-140KV/Current
+    scattercorxml: Calibrations/SC-140kV/Factory/Calibration.xml
 G029:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G030:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G031:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -73,6 +105,10 @@ G031:
 G032:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G034:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
 G035:
   data:
@@ -98,6 +134,10 @@ G040:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G041:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
 G042:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV-Scattergrid-RTI4343iL/Current
@@ -110,6 +150,10 @@ G044:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G045:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G047:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -118,6 +162,10 @@ G048:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G049:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G051:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
@@ -150,10 +198,34 @@ G061:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G062:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G063:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G064:
+  data:
+    airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G065:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G066:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G067:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
+G068:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
 G069:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
@@ -178,6 +250,10 @@ G074:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G076:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV-Scattergrid-RTI4343iL/Current
+    scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
 G077:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -222,6 +298,10 @@ G089:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
     scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
+G090:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G091:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
@@ -238,6 +318,10 @@ G096:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G099:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G100:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -255,6 +339,10 @@ G103:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
     scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
 G104:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G105:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC/Factory/Calibration.xml
@@ -278,6 +366,18 @@ G113:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
     scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
+G114:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
+G115:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G116:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
 G117:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -318,9 +418,17 @@ G128:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G130:
+  data:
+    airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
 G132:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G133:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
 G136:
   data:
@@ -338,6 +446,10 @@ G139:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC/Factory/Calibration.xml
+G140:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
 G141:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -358,6 +470,10 @@ G145:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
+G146:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G148:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
@@ -374,6 +490,10 @@ G151:
   data:
     airscans: Calibrations/AIR-Full-Bowtie-125KV-Scattergrid-RTI4343iL/Current
     scattercorxml: Calibrations/SC-125kV-RTI/Factory/Calibration.xml
+G152:
+  data:
+    airscans: Calibrations/AIR-Full-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125kV/Factory/Calibration.xml
 G155:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -470,10 +590,18 @@ G185:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-140KV/Current
     scattercorxml: Calibrations/SC-140KV-Bowtie-Half/Factory/Calibration.xml
+G186:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-140KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
 G187:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-140KV/Current
     scattercorxml: Calibrations/SC-140KV-Bowtie-Half/Factory/Calibration.xml
+G188:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G189:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
@@ -494,6 +622,10 @@ G194:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
     scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
+G195:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC-125KV-Bowtie-Half/Factory/Calibration.xml
 G197:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-140KV/Current
@@ -510,6 +642,10 @@ G200:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-140KV/Current
     scattercorxml: Calibrations/SC-140KV-Bowtie-Half/Factory/Calibration.xml
+G201:
+  data:
+    airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
+    scattercorxml: Calibrations/SC/Factory/Calibration.xml
 G202:
   data:
     airscans: Calibrations/AIR-Half-Bowtie-125KV/Current
