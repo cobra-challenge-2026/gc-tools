@@ -134,7 +134,7 @@ def correct_i0_varian(
     ma_scan, ms_scan, _  = get_scan_parameters(scan_xml_path)
     ma_air, ms_air = (air_header[0]['KVMilliAmperes'],air_header[0]['KVMilliSeconds'])
     scale_factor = (ma_scan * ms_scan) / (ma_air * ms_air)
-    scale_factor = 1
+    #scale_factor = 1
     air_corr = sitk.Multiply(air_corr, scale_factor)
     
     projections = sitk.Cast(projections, sitk.sitkFloat32)  
